@@ -1,5 +1,6 @@
 from flask import render_template, request, redirect, url_for, jsonify
-from app import app #import the flask app engine
+from app import app, db #import the flask app engine, SQLAlchemy db
+from .models import User
 
 @app.route('/')
 def index():
