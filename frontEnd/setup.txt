@@ -9,3 +9,6 @@ Proceeded to write a python script for flask
 Created .flaskenv
 
 Configured front end scripts for automation
+
+## In order to run the react app. Traverse to the react-flask-app directory and run 
+npm install && yarn start
