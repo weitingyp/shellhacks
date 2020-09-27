@@ -1,0 +1,11 @@
+Created the virtualenv by by running
+python -m venv project_venv
+. /path/to/project_env
+
+Installed flask using
+pip install flask python-dotenv
+
+Proceeded to write a python script for flask
+Created .flaskenv
+
+Configured front end scripts for automation
