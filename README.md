@@ -1,9 +1,6 @@
-# shellhacks
+# Shellhacks: Diverse Voices
 
 # Instructions to run 
-$ python3 -m venv venv
-$ source venv/bin/activate
-$ pip3 install -r requirements.txt
-$ export FLASK_ENV=development
-$ export FLASK_APP=app
-$ python3 -m flask run
+`$ cd react-flask-app`
+`$ yarn start`, which launches the front-end React app 
+`$ yarn start-api`, which launches the back-end Flask API
