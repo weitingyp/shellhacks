@@ -45,3 +45,10 @@
     font-size: 40px !important;
 }
 
+.tweetBox__tweetButton:hover {
+    /* Include the hover effect */
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100 ms ease-out;
+}

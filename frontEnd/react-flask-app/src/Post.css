@@ -16,6 +16,7 @@ padding: 10px;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    max-width: 500px;
 }
 .post__headerSpecial {
     font-weight: 600;
