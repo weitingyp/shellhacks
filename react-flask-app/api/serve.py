@@ -1,6 +1,5 @@
 from flask import render_template, request, redirect, url_for, jsonify
-from app import app, db #import the flask app engine, SQLAlchemy db
-from .models import User
+from api import app #import the flask app engine, SQLAlchemy db
 
 @app.route('/')
 def index():
@@ -8,6 +7,10 @@ def index():
     Render index page
     """
     return redirect(url_for('notifications'))
+
+@app.route('/time')
+def get_current_time():
+    return {'time': time.time()}
 
 @app.route('/notifications')
 def notifications():
