@@ -3,5 +3,7 @@ venv
 app/__pycache__
 *.db
 *.DS_Store
+*/node_modules
+node_modules
 */*.db
 *.vscode
