@@ -1,6 +1,6 @@
 venv
 .env
-app/__pycache__
+react-flask-app/api/__pycache__
 *.db
 *.DS_Store
 */*.db
